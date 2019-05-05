@@ -1,0 +1,58 @@
+/*http://assistantvillageidiot.blogspot.com/2018/01/kazimir-malevich.html*/
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+	background-color: #e2dac1; 
+}
+
+#info {
+	position: absolute;
+	bottom: 25%;
+	right: 25%;
+	color:#27241e;
+	font-family: Poppins;
+	size: 200%; 
+}
+
+#pop{
+	position: absolute;
+	bottom: 20%;
+	right: 20%;
+	color:#27241e;
+	font-family: Poppins;
+	size: 200%
+}
+
+.grid-container {
+
+	height: 100vh;
+	display: grid;
+	/*grid-column-gap: 5%;*/
+	grid-template-columns: auto auto auto;
+	/*background-color: red;*/
+	/*padding: 10px;*/
+	grid-template-rows: 25% 25% 25% 25%; 
+}
+
+.grid-item {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  /*padding: 20px;*/
+  font-size: 30px;
+  /*text-align: center;*/
+  /*height: 33.3%; */
+}
+
+svg {
+	height: 100%;
+	width: 100%;
+}
+
+/*
+#three {
+grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start:3;
+  grid-column-end:3;
+}
+*/

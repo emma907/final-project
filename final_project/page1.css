@@ -1,0 +1,9 @@
+body{
+		background-color: #008ee9; 
+		
+	}
+
+	canvas {
+		margin: 0;
+        height: 100vh;
+	}

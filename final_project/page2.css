@@ -48,6 +48,45 @@ svg {
 	width: 100%;
 }
 
+svg {
+	transform: rotate(0deg);
+    transition: transform 999s 999s;
+}
+
+svg:hover {
+	transform: rotate(90deg);
+    transition: transform 0.5s;
+    /*transform: translate(50px, 20px);*/
+	/*animation-name: ninety_deg;
+    animation-duration: .8s;
+    animation-delay: 100s;*/ 
+    /*animation-fill-mode: forwards;*/
+	 /*transform: translate(50px, 20px);*/
+	}
+#five {
+	transform: translate(0px, 0px);
+    transition: transform 999s 999s;
+}
+
+#five:hover {
+	transform: translate(250px, 80px);
+	transition: transform 0.5s;
+}
+
+#seven {
+	transform: translate(0px, 0px);
+    transition: transform 999s 999s;
+}
+
+#seven:hover {
+	transform: translate(250px, -150px);
+	transition: transform 0.5s;
+}
+
+@keyframes ninety_deg {
+	0%{transform: rotate(0deg)}
+	100% {transform: rotate(90deg)}
+}
 /*
 #three {
 grid-row-start: 1;

@@ -1,3 +1,5 @@
+
+
 let camera, scene, renderer, controls, model, octahedron;
 let height = window.innerHeight;
 
@@ -63,3 +65,16 @@ function animate() {
 
 init();
 animate();
+
+//fade in text
+$(document).ready(function() {
+
+
+  $('#info').hide().delay(2000).fadeIn(1000);
+  
+  $('#pop').hide().delay(3000).fadeIn(1000);
+
+  console.log("This is working")
+
+
+});
